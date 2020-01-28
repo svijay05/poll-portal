@@ -1,0 +1,20 @@
+.app-head {
+
+    font-family: sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.app-menu{
+    margin-right: 20%;
+    
+}
+.app-menu-item{
+    font-family: sans-serif;
+    color: black;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
