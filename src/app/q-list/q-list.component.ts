@@ -33,6 +33,6 @@ export class QuestionListComponent implements OnInit {
 }
 
 vote(event,question:Question){
-  this.router.navigateByUrl('/view/'+question.url);
+  this.router.navigateByUrl('/view'+question.url);
 }
 }

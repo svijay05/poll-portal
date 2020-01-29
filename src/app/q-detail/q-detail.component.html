@@ -1,0 +1,27 @@
+<p-messages [(value)]="msgs"></p-messages>
+
+<p-card header="Question: {{question.question}}">
+
+    <div *ngFor="let c of question.choices">
+        <div class="ui-g">
+            <div class="ui-g-8">
+                <p-radioButton name="choice" [value]="c.url" [label]="c.choice" [(ngModel)]="selectedChoiceLink">
+                </p-radioButton>
+            </div>
+            <div class="ui-g-2">{{c.votes}}</div>
+            <div class="ui-g-2">
+                <p-progressBar [value]="c.votes/totalVotes *100|number:'1.0-0'"></p-progressBar>
+            </div>
+        </div>
+
+    </div>
+    <div class="ui-g">
+        <div class="ui-g-4">
+         <div class="ui-g-4"> <button pButton type="button" (click)="vote($event)" label="Vote" ></button></div>
+         <div class="ui-g-4"> <button pButton type="button" (click)="back($event)" label="Back" ></button></div>
+
+        </div>
+    </div>
+
+
+</p-card>

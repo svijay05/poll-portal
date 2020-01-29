@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopBarModule } from './top-bar/top-bar.module';
 import { QuestionListModule } from './q-list/q-list.module';
+import { QuestionDetailModule } from './q-detail/q-detail.module' ;
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { QuestionListModule } from './q-list/q-list.module';
     BrowserModule,
     AppRoutingModule,
     TopBarModule,
-    QuestionListModule
+    QuestionListModule,
+    QuestionDetailModule
   ],
   providers: [],
   bootstrap: [AppComponent]
