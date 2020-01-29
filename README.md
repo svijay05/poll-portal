@@ -1,5 +1,5 @@
 # Poll-portal
-This is a minimalistic web portal for poll hosting and voting using Angular 8 and Primeng. 
+This is a minimalistic web portal for online poll hosting and voting using Angular 8 and Primeng. 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
 
 
