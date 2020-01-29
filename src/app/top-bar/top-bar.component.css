@@ -17,4 +17,9 @@
     padding-bottom: 0.5rem;
     padding-left: 1rem;
 }
-
+.navLink{
+    cursor: pointer;
+}
+.navLink:hover{
+    text-decoration: underline;
+}
