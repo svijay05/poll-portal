@@ -68,9 +68,6 @@ export class QuestionDetailComponent implements OnInit {
 
 
     }
-    back(event) {
-        this.router.navigateByUrl('/');
-    }
 
     logMessage(severity, summary, detail) {
         this.msgs = [];
