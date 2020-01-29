@@ -1,0 +1,35 @@
+<p-messages [(value)]="msgs"></p-messages>
+
+<p-card header="Add your question">
+
+    <br>
+
+    <div class="ui-g">
+        <div class="ui-g-12">
+            <span class="ui-float-label">
+                <input id="float-input" type="text" size="100" pInputText [(ngModel)]="question">
+                <label for="float-input">Question</label>
+            </span>
+
+        </div>
+    </div>
+
+    <br>
+
+    <div class="ui-g">
+        <div class="ui-g-12">
+            <span class="ui-float-label">
+                <input id="float-input" type="text" size="100" pInputText [(ngModel)]="choices">
+                <label for="float-input">Choices as comma seperated; for ex: Option A,Option B,Option C</label>
+            </span>
+        </div>
+    </div>
+    <div class="ui-g">
+        <div class="ui-g-12">
+            <div class="ui-g-4"> <button pButton type="button" (click)="addQuestion()" label="Add"></button></div>
+
+        </div>
+    </div>
+
+
+</p-card>
